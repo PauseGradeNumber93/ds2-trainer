@@ -1,0 +1,12 @@
+base_module = "DS2.exe"
+
+[hotkeys]
+chiral   = "f1"
+stamina  = "f2"
+cargo    = "f3"
+bb       = "f4"
+timefall = "f5"
+
+[overlay]
+opacity = 0.85
+anchor  = "top-left"
