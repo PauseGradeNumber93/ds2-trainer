@@ -1,0 +1,3 @@
+from ds2_trainer.config.loader import load_profile
+
+__all__ = ["load_profile"]
