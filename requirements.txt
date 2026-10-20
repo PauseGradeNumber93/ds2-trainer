@@ -1,0 +1,8 @@
+pywin32==306
+pymem==1.13.1
+pyMeow==1.0.3
+pygame==2.5.2
+keyboard==0.13.5
+requests==2.31.0
+colorama==0.4.6
+tomli==2.0.1
