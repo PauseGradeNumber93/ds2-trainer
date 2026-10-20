@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ds2-trainer"
+version = "1.4.2"
+description = "Death Stranding 2: On the Beach Trainer — offline cheat overlay"
+requires-python = ">=3.11"
+authors = [{ name = "ds2-trainer contributors" }]
+dependencies = [
+    "pymem>=1.13",
+    "pygame>=2.5",
+    "keyboard>=0.13",
+    "colorama>=0.4",
+    "tomli>=2.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["ds2_trainer*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
